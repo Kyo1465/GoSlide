@@ -1,0 +1,35 @@
+.header {
+    padding: 3rem 6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 6rem;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: var(--header-z);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-icon {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+
+.header-brand {
+    margin-left: 1rem;
+
+    font-style: 2rem;
+    font-weight: 700;
+    color: var(--light);
+
+    text-decoration: none;
+}
