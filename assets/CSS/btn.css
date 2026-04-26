@@ -5,6 +5,7 @@
 
     font-family: inherit;
     font-size: 1.6rem;
+    line-height: 1.1;
     color: var(--primary);
     font-weight: 700;
     text-decoration: none;
@@ -24,7 +25,16 @@
     text-transform: uppercase;
 }
 
-
 .btn--shadow {
     box-shadow: 0 5px 18px rgba(108, 110, 237, 0.6);
+}
+
+.btn--primary {
+    padding: 2.2rem 3.5em;
+    color: var(--light);
+    background-color: var(--primary);
+    box-shadow: 0 4px 15px rgba(44, 48, 56, 0.4);
+    border-radius: 6px;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
