@@ -6,6 +6,7 @@
 @import "section.css";
 @import "info.css";
 @import "benefits.css";
+@import "tech-list.css";
 
 :root {
     --primary: #2C3038;
