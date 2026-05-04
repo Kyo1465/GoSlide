@@ -35,3 +35,26 @@
     line-height: 1.5;
     color: var(--gray-text);
 }
+
+.random-text {
+    margin: 13rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--light);
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 2.4rem;
+    color: inherit;
+    font-size: inherit;
+    border-radius: 30px;
+    margin: 0 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.badge--green {
+    background-color: #2EBB79;
+    color: var(--light);
+}

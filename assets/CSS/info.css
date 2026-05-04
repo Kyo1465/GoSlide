@@ -1,11 +1,19 @@
 .info {
     display: flex;
     align-items: center;
+    gap: 3rem;
     
+    + .info {
+        margin-top: 16rem;
+    }
+}
+
+.info--reviews {
+    padding: 0 11.5rem;
 }
 
 .info-photo, .info-content {
-    flex: 0 0 50%;
+    flex: 0 1 50%;
 }
 
 .info-photo img {
@@ -29,4 +37,9 @@
     color: var(--gray-text);
     line-height: 1.8;
     margin-bottom: 6rem;
+}
+
+.info-title--light {
+    color: var(--light);
+    opacity: 0.6;
 }
