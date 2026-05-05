@@ -8,6 +8,7 @@
 @import "benefits.css";
 @import "tech-list.css";
 @import "reviews.css";
+@import "gallery.css";
 
 :root {
     --primary: #2C3038;
