@@ -5,7 +5,7 @@
 
     font-family: inherit;
     font-size: 1.6rem;
-    line-height: 1.1;
+    line-height: 1.2;
     color: var(--primary);
     font-weight: 700;
     text-decoration: none;
@@ -37,4 +37,18 @@
     border-radius: 6px;
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+.btn--gradient {
+    padding: 2.5rem 6rem;
+    background-image: linear-gradient(to right, var(--pink-light), var(--pink-dark));
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: var(--light);
+
+        .btn-icon {
+            width: 3.4rem;
+            height: 3.4rem;
+        }
+
 }
