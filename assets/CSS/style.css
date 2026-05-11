@@ -10,6 +10,7 @@
 @import "reviews.css";
 @import "gallery.css";
 @import "products.css";
+@import "footer.css";
 
 :root {
     --primary: #2C3038;
