@@ -42,6 +42,7 @@
 .btn--gradient {
     padding: 2.5rem 6rem;
     background-image: linear-gradient(to right, var(--pink-light), var(--pink-dark));
+    box-shadow: 0 4 10 rgba(36, 36, 36, 0.3);
     font-size: 3.2rem;
     font-weight: 800;
     color: var(--light);

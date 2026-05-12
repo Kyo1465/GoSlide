@@ -57,3 +57,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.move-up {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: 1010;
+}
+
+.move-up-icon {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+}

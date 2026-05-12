@@ -75,3 +75,39 @@
     width: 4rem;
     height: 4rem;
 }
+
+.footer-info {
+    padding: 4rem 0;
+    border-top: 1px solid #EDEDED;
+}
+
+.footer-info-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer-nav-link {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    color: var(--gray-text);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-payments {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
