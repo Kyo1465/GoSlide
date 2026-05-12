@@ -2,14 +2,22 @@
     background-color: var(--light);
 }
 
+.footer-col {
+
+    &:last-child {
+        text-align: right;
+    }
+}
+
 .footer-contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 7.5rem 0;
     text-align: center;
-
+    
     font-style: normal;
+    margin: 0;
 }
 
 .footer-text {
